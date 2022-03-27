@@ -1,0 +1,12 @@
+version: "3.7"
+
+services:
+  social:
+    build: .
+    container_name: container_elegans_front
+    ports:
+      - 3031:3000
+    environment:
+      - DUMMY=value
+    tty: true
+    stdin_open: true
