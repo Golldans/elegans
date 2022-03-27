@@ -5,7 +5,9 @@ import BriefingHome from './Briefing'
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
-      <BriefingHome />
+      <Component>
+        
+      </Component>
     </>
   )
 }

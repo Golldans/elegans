@@ -1,10 +1,12 @@
 import { Fragment } from "react";
 import NavItem from "../../components/Briefing/Nav/navItem";
 import Shortcut from "../../components/Briefing/Shortcut";
+import BasicHead from "../../components/Basics/Head";
 
 export default function BriefingHome() {
     return (
         <Fragment>
+            <BasicHead />
             <div className="flex w-screen h-screen text-gray-400 bg-gray-900">
                 <div className="flex flex-col items-center w-16 pb-4 overflow-auto border-r border-gray-800 text-gray-500">
 
