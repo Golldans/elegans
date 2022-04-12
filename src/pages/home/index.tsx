@@ -38,7 +38,7 @@ export default function Landing() {
                     </div>
                 </div>
                 <div className="col-start-3 row-span-3 flex items-center justify-center">
-                    <div className="bg-[url('/neon_sign.jpg')] bg-cover bg-center bg-no-repeat w-9/12 h-5/6 cursor-pointer rounded-md transition duration-300 hover:shadow hover:shadow-pink-500"  onClick={handleShowTitles}/>
+                    <div className="bg-[url('/neon_sign.jpg')] bg-cover bg-center bg-no-repeat w-9/12 h-5/6 cursor-pointer rounded-md transition duration-300 ease-linear hover:shadow hover:shadow-pink-500"  onClick={handleShowTitles}/>
                 </div>
             </div>
         </Fragment>
